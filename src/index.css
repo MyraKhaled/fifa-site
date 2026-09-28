@@ -1,0 +1,26 @@
+:root {
+  --royal: #1f5fbf;   
+  --cyan: #00a3ff;    
+  --sky: #4da3ff;
+  --gold: #ffc72c;    
+
+  --navy-d: #061530;  
+  --bg-dark: #040d20; 
+  --card-dark: #0b2350;
+  --bg-1: #061530;   
+  --bg-2: #081b3f;  
+  --bg-3: #061530;
+
+  --grad: linear-gradient(90deg, var(--royal), var(--cyan));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
